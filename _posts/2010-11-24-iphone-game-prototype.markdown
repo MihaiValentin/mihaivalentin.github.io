@@ -5,7 +5,7 @@ categories:
 - work
 tags: []
 meta:
-  vimeo: <iframe src="http://player.vimeo.com/video/17023102?color=ffffff" width="580"
+  vimeo: <iframe src="https://player.vimeo.com/video/17023102?color=ffffff" width="580"
     height="435" frameborder="0"></iframe>
   year: '2010'
   dev: Objective-C, Box2D, Cocos2D

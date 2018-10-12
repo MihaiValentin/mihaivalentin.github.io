@@ -34,11 +34,11 @@ This plugin is aimed for web developers. It does not have an option page, but yo
 <?php
 /*
 Plugin Name: WP User theme switch - Different theme for a particular user
-Plugin URI: http://www.mihaivalentin.com/different-wordpress-theme-depending-of-the-current-user/
+Plugin URI: https://www.mihaivalentin.com/different-wordpress-theme-depending-of-the-current-user/
 Description: Useful for developing new versions of the site. The admin user will se the theme he works on, and the normal users will continue to see the normal theme.
 Version: 1.0
 Author: Mihai Valentin
-Author URI: http://www.mihaivalentin.com/
+Author URI: https://www.mihaivalentin.com/
 */
 $mv_theme_switch = array(
   'user' => 'insert user for which you want to show a different theme here',

@@ -19,7 +19,7 @@ redirect_from:
 * Strong experience with large scale **front-end**, **backend** &amp; **infrastructure** systems
 * 11+ years of experience in the software development, 9 in web development
 * Got **Corporate**, **Open-Source**, **Start-Up**, **Freelance** and **Trainer** experience
-* Got a big passion for UX and Product management <a href="http://mihaivalentin.com/hippotomate/" target="_blank">(check out an app I created)</a>
+* Got a big passion for UX and Product management <a href="https://mihaivalentin.com/hippotomate/" target="_blank">(check out an app I created)</a>
 * Check out my skills, my expertise and my work below:
 
 ## My skills and expertise
@@ -106,8 +106,8 @@ Below you'll find the tools, languages and frameworks I use:
 
 * Contributed to various projects and authored own Open-Source projects on Github
   * Github profile: <a href="https://github.com/MihaiValentin" target="_blank">https://github.com/MihaiValentin</a>
-* I am the author and lead developer of the <a href="http://www.mihaivalentin.com/image-pro-wordpress-image-management/" target="_blank">Image Pro plugin for WordPress</a>, a open source WordPress plugin - downloaded by over 70 000 users.
-* I am the author of Hippotomate (<a href="http://mihaivalentin.com/hippotomate/" target="_blank">http://mihaivalentin.com/hippotomate/</a>), an open source app that helps QA automation engineers develop and debug their tests. 
+* I am the author and lead developer of the <a href="https://www.mihaivalentin.com/image-pro-wordpress-image-management/" target="_blank">Image Pro plugin for WordPress</a>, a open source WordPress plugin - downloaded by over 70 000 users.
+* I am the author of Hippotomate (<a href="https://mihaivalentin.com/hippotomate/" target="_blank">https://mihaivalentin.com/hippotomate/</a>), an open source app that helps QA automation engineers develop and debug their tests. 
 
 #### Corporate experience (2009-present)
 
@@ -141,6 +141,6 @@ Here is a selection of relevant projects I've done over the time, including the 
 
 ## Contact
 <iframe height="514" allowTransparency="true" frameborder="0" scrolling="no"
-    style="width:100%;border:none;margin-top: 0;"  src="http://mihaivalentin.wufoo.com/embed/z7x4a3/def/&header=hide"><a
-    href="http://mihaivalentin.wufoo.com/forms/z7x4a3/" title="Contact me" rel="nofollow">Fill
+    style="width:100%;border:none;margin-top: 0;"  src="https://mihaivalentin.wufoo.com/embed/z7x4a3/def/&header=hide"><a
+    href="https://mihaivalentin.wufoo.com/forms/z7x4a3/" title="Contact me" rel="nofollow">Fill
     out my Wufoo form!</a></iframe>

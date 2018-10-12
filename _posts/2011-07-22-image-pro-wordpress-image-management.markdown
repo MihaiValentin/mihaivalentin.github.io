@@ -7,7 +7,7 @@ categories:
 tags: []
 redirect_from: /wordpress-image-management-plugin/
 meta:
-  vimeo: <iframe src="http://player.vimeo.com/video/26777428?color=ffffff" width="580"
+  vimeo: <iframe src="https://player.vimeo.com/video/26777428?color=ffffff" width="580"
     height="435" frameborder="0"></iframe>
   paypal: |-
     <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
