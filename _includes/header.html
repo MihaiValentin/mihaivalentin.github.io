@@ -1,0 +1,39 @@
+<header class="site-header">
+  <a href="{{ site.baseurl }}/"><img src="/css/logo.jpg" /></a>
+
+  <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+
+    <div class="site-desc">
+        Production Engineer @ Facebook
+        <p class="deco-tilda">~</p>
+        <!--<p class="site-desc-message">I help stakeholders transform the product vision into reality</p>-->
+    </div>
+
+    {% include social.html %}
+
+    <nav class="site-nav">
+        <ul>
+            <li class="{% if page.permalink == '/' or page.categories contains 'work' %}{% unless page.categories contains 'blog' %}{{ 'nav-selected' }}{% endunless %}{% endif %}">
+                <small></small>
+                <a href="{{ site.baseurl }}/">About me<span> &amp; my work</span></a>
+                <svg class="deco-edge" height="6" width="11">
+                    <polygon points="0,0 0,6 11,6" style="" />
+                </svg>
+                <svg class="deco-bottom" height="10" width="23">
+                    <polygon points="0,0 11,10 23,0" style="" />
+                </svg>
+            </li>
+            <li class="{% if page.permalink == '/blog/' or page.categories contains 'blog' %}{{ 'nav-selected' }}{% endif %}">
+                <small></small>
+                <a href="{{ site.baseurl }}/blog/">Blog</a>
+                <svg class="deco-edge" height="6" width="11">
+                    <polygon points="0,0 0,6 11,6" style="" />
+                </svg>
+                <svg class="deco-bottom" height="10" width="23">
+                    <polygon points="0,0 11,10 23,0" style="" />
+                </svg>
+            </li>
+        </ul>
+    </nav>
+    <div class="clear"></div>
+</header>

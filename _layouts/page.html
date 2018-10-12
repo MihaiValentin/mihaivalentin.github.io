@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<div class="post">
+
+
+    <h1 class="{% if page.permalink == '/about-me/' %}{{ 'about-me' }}{% endif %}">{{ page.title }}</h1>
+
+
+  <article class="post-content">
+  {{ content }}
+  </article>
+
+</div>
