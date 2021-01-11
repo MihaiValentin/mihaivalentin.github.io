@@ -12,13 +12,21 @@ redirect_from:
   - "/about-me/"
 ---
 
+<span style="color:red;">NEW!</span> Are you a software engineer, software architect, manager or engineering executive and you are struggling to take your career to the next level?
+
+"Unlock the game-changing mindset of successful engineers" gives you the tools you need in order to stand out and dominate your profession!
+
+<script src="https://gumroad.com/js/gumroad.js"></script>
+<a class="gumroad-button" href="https://gum.co/XpJaV" target="_blank">Get the eBook. You'll thank me later!</a>
+<hr />
 {% include social.html %}
 
-* 32 year-old **Software/Systems Architect**, in Dublin, Ireland
+* **Software/Systems Architect**, in Dublin, Ireland
 * Currently working as a **Production Engineer at Facebook Dublin**
 * Strong experience with large scale **front-end**, **backend** &amp; **infrastructure** systems
 * 11+ years of experience in the software development, 9 in web development
 * Got **Corporate**, **Open-Source**, **Start-Up**, **Freelance** and **Trainer** experience
+* Author of <a href="">Unlock the game-changing mindset of successful engineers</a>
 * Got a big passion for UX and Product management <a href="https://mihaivalentin.com/hippotomate/" target="_blank">(check out an app I created)</a>
 * Check out my skills, my expertise and my work below:
 
