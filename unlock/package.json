@@ -1,0 +1,20 @@
+{
+  "name": "unlock-the-game-changing-mindset-of-successful-engineers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "server": "python3 -m http.server",
+    "cssdev": "./node_modules/postcss-cli/bin/postcss styles.css -o tailwind.css",
+    "cssprod": "NODE_ENV=production ./node_modules/postcss-cli/bin/postcss styles.css -o tailwind.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.4",
+    "cssnano": "^4.1.10",
+    "postcss": "^8.2.6",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.3"
+  }
+}
