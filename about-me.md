@@ -16,8 +16,7 @@ redirect_from:
 
 "Unlock the game-changing mindset of successful engineers" gives you the tools you need in order to stand out and dominate your profession!
 
-<script src="https://gumroad.com/js/gumroad.js"></script>
-<a class="gumroad-button" href="https://gum.co/XpJaV" target="_blank">Get the eBook. You'll thank me later!</a>
+<a href="/unlock">Get the eBook. You'll thank me later!</a>
 <hr />
 {% include social.html %}
 
