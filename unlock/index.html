@@ -309,6 +309,8 @@ Please be also aware that when you leave this publication, other sites may have 
                         response.json().then(jsonData => {
                             if(jsonData.in_eu) {
                                 ucook.style.display = '';
+                            } else {
+                                uSetExtraCookies();
                             }
                         });
                     })
