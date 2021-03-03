@@ -11,6 +11,13 @@
             background: rgb(231, 231, 231);
             background: linear-gradient(328deg, rgba(242, 242, 242, 1) 0%, rgba(255, 255, 255, 1) 77%);
         }
+        .u-gr-fix {
+            max-width: 100% !important;
+            max-height: 100% !important;
+            width: 100% !important;
+            height: 100% !important;
+            background: rgba(0,0,0,0.3) !important;
+        }
     </style>
     <title>Unlock the game-changing mindset of successful engineers</title>
     <script>
@@ -61,7 +68,6 @@
             uSetExtraCookies();
         }
     </script>
-    <script src="https://gumroad.com/js/gumroad.js"></script>
 </head>
 
 <body class="u-gradient font-serif">
@@ -320,7 +326,18 @@ Please be also aware that when you leave this publication, other sites may have 
                 ucook.style.display = '';
             }
         }
+        setInterval(function() {
+            try {
+                let grsc = document.getElementsByClassName('gumroad-scroll-container')[0];
+                if (grsc.style.width === '0px' || !grsc.style.width) {
+                    grsc.classList.remove('u-gr-fix')
+                } else {
+                    grsc.classList.add('u-gr-fix')
+                }
+            } catch(e) {}
+        }, 20)
     </script>
+    <script src="https://gumroad.com/js/gumroad.js"></script>
 </body>
 
 </html>
