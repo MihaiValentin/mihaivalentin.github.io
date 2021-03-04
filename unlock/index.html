@@ -43,6 +43,7 @@
 
         function uScrollTo(id) {
             document.getElementById(id).scrollIntoView({behavior:'smooth'}); 
+            uTr('scroll_to', id);
             return false;
         }
         function uSetExtraCookies() {
@@ -96,7 +97,7 @@
             </div>
         </div>
     </section>
-    <section class="mx-auto container flex py-12 px-5">
+    <section class="mx-auto container flex pt-12 px-5">
         <div class="mx-auto border-red-600 flex-1 pr-8 flex flex-col sm:pr-0 md:mr-5">
             <h1 class="text-2xl text-black leading-normal">Are you stuck in your tech career?
                 <span class="text-red-700">Tired of learning technology after technology?</span>
@@ -106,8 +107,8 @@
                 <span class="text-red-700">Want to work on more exciting projects?</span>
                 Want to get the mindset of the engineers at top companies?
             </h1>
-            <h1 class="text-left text-4xl my-10">Save the years of struggle!</h1>
-            <div class="mt-6 flex lg:space-x-4 flex-1 flex-col space-y-4 lg:flex-row lg:space-y-0">
+            <h1 class="text-left text-4xl my-10">Here's the perfect solution to stand out and fast track your tech career!</h1>
+            <div class="flex lg:space-x-4 flex-1 flex-col space-y-4 lg:flex-row lg:space-y-0">
                 <a onclick="uTr('click_sample', 'header');" href="sample.pdf" target="_blank"
                     class="text-center flex-1 lg:mr-5 focus:outline-none text-white py-3.5 px-5 rounded-md bg-red-500 hover:bg-red-600 hover:shadow-lg flex items-center text-xl border border-red-600">
                     Download the sample chapter for free now!
@@ -120,6 +121,7 @@
                     </button>
                 </a>
             </div>
+            <div class="text-center mt-5"><a class="underline" href="#" onclick="return uScrollTo('toc');">View table of contents</a></div>
         </div>
         <div class="flex-grow-0 relative w-96 sm:hidden md:block">
             <div class="absolute"
@@ -128,10 +130,9 @@
             <img class="w-96 border-2 border-gray-200 shadow-xl" src="img/cover.png" />
         </div>
     </section>
-
    
 
-    <section class="container mx-auto text-xl leading-normal text-gray-800 px-5">
+    <section class="container mx-auto text-xl leading-normal text-gray-800 px-5 pt-8">
         <p>Everyone is getting into software engineering these days. COVID and remote work allowed companies to leverage the global talent pool. The talent game will be played on the global market and the local markets will become less and less relevant. <span class="font-bold">To be successfull in this new reality, you need to stand out and fast track your career and growth!</span></p>
     </section>
 
