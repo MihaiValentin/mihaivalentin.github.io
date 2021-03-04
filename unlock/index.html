@@ -55,7 +55,7 @@
             document.cookie = name + "=" + (value || "")  + expires + "; path=/";
         }
         function uSetConsent() {
-            uSetCookie("unlock_consent", "1")
+            uSetCookie("unlock_consent", "1", 365)
             uSetExtraCookies();
             document.getElementById('u-cookie').style.display = 'none';
             return false;
