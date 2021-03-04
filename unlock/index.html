@@ -21,6 +21,19 @@
     </style>
     <title>Unlock the game-changing mindset of successful engineers</title>
     <script>
+        try {
+            window.addEventListener('message', function(ev) {
+                if (ev.data) {
+                    let data = JSON.parse(ev.data);
+                    if (data.post_message_name == "sale") {
+                        gtag('event', 'conversion', { 'send_to': 'AW-410959106/ZCiFCLqatvkBEIL6-sMB', 'transaction_id': data.sale_id });
+                    }
+                }
+            });
+        } catch(e) {
+           
+        }
+
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
