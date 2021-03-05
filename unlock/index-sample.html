@@ -23,7 +23,7 @@
     <script>
         try {
             window.addEventListener('message', function(ev) {
-                if (ev.data && typeof ev.data === 'string' && ev.data[0] === '{') {
+                if (ev.data && typeof ev.data === 'string') {
                     let data = JSON.parse(ev.data);
                     if (data.post_message_name == "sale") {
                         gtag('event', 'conversion', { 'send_to': 'AW-410959106/ZCiFCLqatvkBEIL6-sMB', 'transaction_id': data.sale_id });
@@ -115,15 +115,19 @@
             <h1 class="text-left text-4xl mt-10">Here's the perfect solution to stand out and fast track your tech career!</h1>
             <h2 class="text-left text-3xl text-gray-700 my-10">Learn from an ex-Facebook tech-lead!</h2>
             <div class="flex lg:space-x-4 flex-1 flex-col space-y-4 lg:flex-row lg:space-y-0">
+                <a onclick="uTr('click_sample', 'header');" href="sample.pdf?v=1" target="_blank"
+                    class="text-center flex-1 lg:mr-5 focus:outline-none text-white py-3.5 px-5 rounded-md bg-red-500 hover:bg-red-600 hover:shadow-lg flex items-center text-xl border border-red-600">
+                    Download the sample chapter for free now!
+                </a>
                 <a class="flex-1" href="https://gum.co/XpJaV?wanted=true" target="_blank">
                     <button onclick="uTr('click_buy', 'header');" type="button" style="height:100%"
-                        class="text-center flex-1 lg:mr-5 focus:outline-none text-white py-3.5 px-5 rounded-md bg-red-500 hover:bg-red-600 hover:shadow-lg flex items-center text-xl border border-red-600">
+                        class="focus:outline-none text-red-600 text-xl py-3.5 px-5 rounded-md border border-red-600 hover:bg-red-50 flex items-center">
                         Get the e-book for just $19.99
                         <span class="text-xs block ml-4 text-red-300">PDF &amp; ePub formats</span>
                     </button>
                 </a>
             </div>
-            <div class="text-left mt-5"><a class="underline" href="#" onclick="return uScrollTo('toc');">View table of contents</a></div>
+            <div class="text-center mt-5"><a class="underline" href="#" onclick="return uScrollTo('toc');">View table of contents</a></div>
         </div>
         <div class="flex-grow-0 relative w-96 sm:hidden md:block">
             <div class="absolute"
@@ -212,9 +216,13 @@
     </section>
     <section class="mx-auto px-10 my-11 container">
         <div class="mt-6 flex  flex-1 justify-center flex-col md:flex-row md:space-x-4 space-y-5 md:space-y-0">
+            <a onclick="uTr('click_sample', 'after_pitch');"  href="sample.pdf?v=1" target="_blank"
+                class="text-center focus:outline-none text-white py-3.5 px-5 rounded-md bg-red-500 hover:bg-red-600 hover:shadow-lg flex items-center text-xl border border-red-600">
+                Download the sample chapter for free now!
+            </a>
             <a onclick="uTr('click_buy', 'after_pitch');" href="https://gum.co/XpJaV?wanted=true" target="_blank">
                 <button type="button" style="height:100%"
-                    class="text-center focus:outline-none text-white py-3.5 px-5 rounded-md bg-red-500 hover:bg-red-600 hover:shadow-lg flex items-center text-xl border border-red-600">
+                    class="bg-white focus:outline-none text-red-600 text-xl py-3.5 px-5 rounded-md border border-red-600 hover:bg-red-50 flex items-center">
                     Get the e-book for just $19.99
                 </button>
             </a>
@@ -269,9 +277,13 @@
     </section>
     <section class="mx-auto px-10 py-11 bg-white">
         <div class="mt-6 flex px-10 container mx-auto flex-1 justify-center flex-col md:flex-row md:space-x-4 space-y-5 md:space-y-0">
+            <a onclick="uTr('click_sample', 'footer');"  href="sample.pdf?v=1" target="_blank"
+                class="text-center focus:outline-none text-white py-3.5 px-5 rounded-md bg-red-500 hover:bg-red-600 hover:shadow-lg flex items-center text-xl border border-red-600">
+                Download the sample chapter for free now!
+            </a>
             <a onclick="uTr('click_buy', 'footer');" href="https://gum.co/XpJaV?wanted=true" target="_blank">
                 <button type="button" style="height:100%"
-                    class="text-center focus:outline-none text-white py-3.5 px-5 rounded-md bg-red-500 hover:bg-red-600 hover:shadow-lg flex items-center text-xl border border-red-600">
+                    class="bg-white focus:outline-none text-red-600 text-xl py-3.5 px-5 rounded-md border border-red-600 hover:bg-red-50 flex items-center">
                     Get the e-book for just $19.99
                 </button>
             </a>
