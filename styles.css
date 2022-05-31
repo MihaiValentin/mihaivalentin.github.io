@@ -250,7 +250,7 @@ main {
   color: #d3cdc5;
   margin-top: 29px;
   padding-left: 32px;
-  font-size: 13px;
+  font-size: 14px;
 }
 main a,
 main a:hover a:visited,
@@ -281,7 +281,7 @@ main p,
 main li {
   font-weight: 400;
   margin: 5px 0;
-  line-height: 1.34;
+  line-height: 1.54;
   text-align: justify;
 }
 main p.subtitle {
@@ -305,7 +305,7 @@ main h2 {
   font-size: 16px;
   font-weight: 600;
   color: #eea826;
-  margin-bottom: -8px;
+  margin-bottom: 3px;
   margin-top: 26px;
 }
 main h2 svg {
