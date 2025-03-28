@@ -2,8 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>iOS Notification Test</title>
+  <title>My Fake App</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Link to the manifest file -->
+  <link rel="manifest" href="manifest.json">
+  <!-- Optionally set a theme color -->
+  <meta name="theme-color" content="#000000">
   <style>
     body { font-family: sans-serif; text-align: center; padding-top: 50px; }
     button { padding: 10px 20px; font-size: 16px; }
@@ -16,13 +20,11 @@
 
   <script>
     function sendNotification() {
-      // Check if the browser supports notifications
       if (!("Notification" in window)) {
         alert("This browser does not support notifications.");
         return;
       }
       
-      // Function to show the notification
       function showNotification() {
         new Notification("Hello from your fake app!", {
           body: "This is a test notification on iOS.",
@@ -30,11 +32,9 @@
         });
       }
       
-      // Check the current permission
       if (Notification.permission === "granted") {
         showNotification();
       } else if (Notification.permission !== "denied") {
-        // Request permission if not denied
         Notification.requestPermission().then(permission => {
           if (permission === "granted") {
             showNotification();
